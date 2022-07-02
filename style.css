@@ -1,0 +1,96 @@
+/*------------------
+  Header section
+---------------------*/
+body {
+  background: -webkit-linear-gradient(bottom, #ADD8E6, ##40E0D0);
+  background-repeat: no-repeat;
+  background-color: #FFDAB9;
+}
+
+.site-navbar {
+	padding: 6px 40px;
+}
+
+.site-navbar.bg-dark {
+	background-color: #BC8F8F !important;
+}
+
+.site-logo h3 {
+	font-size: 40px;
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: 100;
+}
+
+.site-logo h3 span {
+	color: #2F4F4F;
+}
+
+p {
+	text-transform: uppercase;
+	color: #fff;
+	opacity: 0.43;
+	font-size: 9px;
+	letter-spacing: 0.29em;
+	margin-bottom: 0;
+}
+
+.site-navbar.navbar-dark .navbar-nav .nav-link {
+	color: #fff;
+	font-weight: 100;
+	font-size: 14px;
+	text-transform: uppercase;
+	padding-right: 25px;
+	padding-left: 25px;
+}
+
+.site-navbar.navbar-dark .navbar-nav .nav-link:hover {
+	color: #2F4F4F;
+}
+
+.social-links a {
+	color: #fff;
+	margin-left: 30px;
+	-webkit-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+.social-links a:hover {
+	color: #2F4F4F;
+}
+
+.isi{
+	border: 1px dashed;
+	border-radius: 8px;
+	padding: 7px;
+}
+.show {
+	width: 75%;
+}
+.showdetail {
+	width: 75%;
+}
+.show tr td {
+	border: 1px solid;
+	border-radius: 3px;
+	border-color: #FFFACD;
+}
+.showdetail tr td {
+	border: 1px solid;
+	border-radius: 3px;
+	border-color: #B0E0E6;
+}
+.notif{
+	display: none;
+}
+input, select{
+border-radius: 5px;
+width: 150px;
+}
+.footer{
+	height: 10px;
+	box-shadow: #262626 5px 5px 5px 5px;
+	border-radius: 5px;
+	padding: 1px; 
+	text-align: right;
+}
